@@ -2,7 +2,7 @@
 
 A responsive weather application that displays current conditions and forecasts using the WeatherAPI.
 
-![Weather App Screenshot](https://i.imgur.com/example-image.jpg) *(Replace with your actual screenshot)*
+![Weather App Screenshot](https://github.com/Thadkapally-Saikiran/WeatherApp/blob/main/WeatherApp.png) 
 
 ## ✨ Features
 
