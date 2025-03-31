@@ -1,0 +1,23 @@
+body { /* Selects the <body> element */
+    background-color: black; /* Sets the background color of the page to black */
+    color: white; /* Sets the default text color to white */
+}
+  
+.icon { /* Selects elements with the class "icon" */
+    width: 200px; /* Sets the width of the icon to 200 pixels */
+    height: 200px; /* Sets the height of the icon to 200 pixels */
+}
+  
+#weekForecast { /* Selects the element with the id "weekForecast" */
+    display: none;
+    min-height: 400px; /* Ensures the weekForecast container has a minimum height of 400 pixels */
+}
+  
+#weekForecast h4 { /* Selects <h4> elements that are inside the element with the id "weekForecast" */
+    text-decoration: underline; /* Underlines the text of the <h4> element */
+}
+  
+.card { /* Selects elements with the class "card" */
+    background-color: rgba(255, 255, 255, 0.05); /* Sets a translucent white background color for the cards */
+    border-radius: 0.5rem; /* Rounds the corners of the card by 0.5 rem */
+}
