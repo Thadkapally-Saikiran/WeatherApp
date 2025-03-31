@@ -39,3 +39,52 @@ A responsive weather application that displays current conditions and forecasts 
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/weather-app.git
+```
+
+2. Open index.html in your browser
+   Using Your Own API Key
+     - Get a free API key from WeatherAPI.com
+     - Replace the key in script.js:
+       ```
+       let key = "YOUR_NEW_API_KEY_HERE";
+       ```
+## 📂 Project Structure
+```
+weather-app/
+├── index.html          # Main HTML file
+├── style.css           # Custom styles
+├── script.js           # All JavaScript functionality
+└── assets/             # (Optional) Folder for images/icons
+```
+## 🌟 Features in Detail
+Current Weather
+**Displays:**
+  - City name & country
+  - Current temperature (°C)
+  - Weather condition icon
+  - (Can be extended to show humidity, wind speed etc.)
+Forecasts
+**Hourly Forecast:**
+  - Shows 3-hour intervals for current day
+  - Includes time, icon, and temperature
+**7-Day Forecast:**
+  - Daily weather card
+  - Day name, condition, min/max temps
+
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+
+ - 1. Fork the project
+  
+ - 2. Create your feature branch (git checkout -b feature/AmazingFeature)
+  
+ - 3. Commit your changes (git commit -m 'Add some amazing feature')
+  
+ - 4. Push to the branch (git push origin feature/AmazingFeature)
+  
+ - 5. Open a Pull Request
+  
+## 🙏 Acknowledgments
+   - WeatherAPI for their free tier service
+   - Bootstrap for responsive design components
+
